@@ -1,0 +1,106 @@
+.geral {
+    display: flex;
+}
+
+.banner-esq {
+    background-image: url("project_bg.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 657px;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+}
+
+.container {
+    position: absolute;
+    width: 333px;
+    height: 300px;
+
+}
+
+.box {
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.box h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: green;
+}
+
+.box p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* banner direita */
+
+.banner-dir {
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    color: #888;
+    margin-bottom: 50px;
+}
+
+
+#contact-form {
+    padding: 10px 50px;
+    margin: 10px 50px;
+    width: 100%;
+
+}
+
+#contact-form label {
+    font-size: 20px;
+    color: #999;
+    font-weight: bold;
+}
+
+#contact-form input {
+    margin-bottom: 15px;
+}
+
+
+#contact-form label, #contact-form input {
+    display: block;
+    padding: 10px;
+    border: 1px solid #EEE;
+
+}
+
+#contact-form input[type="submit"] {
+    background-color:#00AD5E;
+    color: #fff;
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer;
+    width: 300px;
+    margin: 30px auto;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+
+#contact-form input[type="submit"]:hover {
+    border-color: #00AD5E;
+    color: #00AD5E;
+    background-color: #fff;
+}
+
+
+textarea {
+    width: 80%;
+}
